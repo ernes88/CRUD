@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Web de Productos</title>
+
+<style type="text/css">
+/* Crear un selector de id que debe llamarse igual al nombre del botón */
+#contenedorBotton{
+	margin-left:1000px;		/* el botón se situará 1000 pixels a la derecha del maegen izquierdo de la pagina.*/
+}
+</style>
+
+
+</head>
+<body>
+	
+	<header>
+		<h1>Bienvenido a la Web de Productos!!!!</h1>
+	</header>
+	
+	<nav>
+		<ol>
+			<li>Quienes somos?</li>
+			<li>Nuestros productos</li>
+			<li>Contáctanos</li>
+			<li>Trabaja con nosotros</li>
+		</ol>
+	</nav>
+	
+	<aside>
+		<blockquote>Información relacionada</blockquote>
+	</aside>
+	
+	<section>
+		<h3>Base de datos de Productos</h3>
+		<!-- Se crea un contenedor y dentro del mismo se crea el botón para al pincharlo redirija hacia el controlador -->
+		<!-- A este botón se le agrega un evento de tipo click para que cuando pulsemos en el mismo abra el controlador. -->
+		<div id="contenedorBoton">	
+			<input type="button" value="Acceder" onclick="window.location.href='ControladorProductos'"/>	
+		</div>
+	</section>
+	
+	<footer>
+		<p>vosImportas.Tel:23427443280</p>
+	</footer>
+</body>
+</html>
